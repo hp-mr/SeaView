@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86CCF7"
+    tools:context="com.cl.kira.waveview.MainActivity">
+
+    <com.cl.kira.waveview.WaveView
+        android:id="@+id/wave"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#0080FF"
+        android:layout_below="@id/wave"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_below="@id/wave"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fishpool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
